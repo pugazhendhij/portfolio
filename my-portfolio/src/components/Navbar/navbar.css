@@ -4,8 +4,9 @@
   justify-content: end;
   align-items: center;
   padding: 15px 30px;
-  background: #79b5f4;
+  background: rgb(28, 115, 228);
   border-bottom: 1px solid #eee;
+  color: white;
 
 }
 
@@ -35,7 +36,7 @@
   bottom: 0;
   width: 0%;
   height: 2px;
-  background: #0078ff;
+  background: white;
   transition: width 0.3s ease;
 }
 
