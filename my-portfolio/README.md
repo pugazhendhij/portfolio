@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# 🚀 **Personal Portfolio – Pugazhendhi**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive personal portfolio website built using **React**, showcasing my experience, skills, and projects as a **Software Engineer**.
+This portfolio highlights my professional background, technical expertise, project case studies, and contact details — all designed with a clean UI and smooth navigation.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 **Features**
 
-### `npm start`
+* Fully responsive modern UI
+* Smooth navigation using React Router
+* Professional **About**, **Skills**, **Projects**, and **Contact** sections
+* Online viewing & downloadable resume
+* Contact form powered by **Web3Forms**
+* Interactive project cards with clean layout
+* Social links for GitHub, LinkedIn, Email & WhatsApp
+* Production-ready project structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ **Tech Stack**
 
-### `npm test`
+### **Frontend**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React.js
+* JavaScript (ES6+)
+* CSS3 (Custom components & layout)
+* React Router
 
-### `npm run build`
+### **Backend Service**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Web3Forms API (Contact form backend)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Tools**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Git & GitHub
+* VS Code
+* npm / pnpm
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ **Installation & Setup**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/pugazhendhij/portfolio.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Move into the project folder:
 
-## Learn More
+```bash
+cd my-portfolio
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Your portfolio will be available at:
+`http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📄 **Resume Integration**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Place your resume file inside the `public` folder:
 
-### Advanced Configuration
+```
+public/Pugazhendhi CV.pdf
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Use this link format to open it in a new tab:
 
-### Deployment
+```jsx
+<a href="/Pugazhendhi CV.pdf" target="_blank">View Resume</a>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## ✉️ **Contact Form Setup (Web3Forms)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Sign up at **[https://web3forms.com/](https://web3forms.com/)**
+2. Copy your **Access Key**
+3. Add it inside your Contact component:
+
+```js
+formData.append("access_key", "YOUR_ACCESS_KEY");
+```
+
+Your messages will now be delivered directly to your email.
+
+---
+
+## 🚀 **Deployment**
+
+You can deploy your portfolio using **GitHub Pages**, **Vercel**, or **Netlify**.
+
+### GitHub Pages
+
+Build the project:
+
+```bash
+npm run build
+```
+
+Deploy using:
+
+```bash
+npm run deploy
+```
+
+---
+
+## 👤 **Author**
+
+**Pugazhendhi**
+Software Engineer
+
+🔗 **GitHub:** [https://github.com/pugazhendhij](https://github.com/pugazhendhij)
+🔗 **LinkedIn:** [https://www.linkedin.com/in/pugazhendhij92/](https://www.linkedin.com/in/pugazhendhij92/)
+📧 **Email:** [pugazhe9202@gmail.com](mailto:pugazhe9202@gmail.com)
