@@ -21,10 +21,10 @@
 }
 
 .skills-desc {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto 40px;
   color: #555;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* ROW layout */
@@ -47,6 +47,12 @@
   text-align: center;
 }
 
+.skill-card li {
+  font-weight: 98px; /* change to whatever size you want */
+  margin: 8px 0;
+  line-height: 1.0;
+}
+
 .skill-card:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
@@ -66,4 +72,18 @@
   padding: 5px 0;
   color: #444;
   font-size: 15px;
+}
+
+
+.resume-link {
+  color: #41A4F5;          /* same color as normal text */
+  text-decoration: none;   /* remove underline */
+  font-weight: normal;     /* remove bold if any */
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.resume-link:hover {
+  color: #007bff;          /* blue color on hover (optional) */
+  text-decoration: underline; /* underline only on hover */
 }

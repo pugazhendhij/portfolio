@@ -1,5 +1,6 @@
 import "../About/about.css";
-import profile from "../../assests/profile.jpg"
+import profile from "../../assets/profile.jpg";
+import { Link } from "react-router-dom";
 
 function About() {
     return (
@@ -14,24 +15,22 @@ function About() {
                         />
                         <div className="about-text">
                             <p>
-                                Hello, my name is<div className="myname">Pugazhendhi</div> I'm <strong>software engineer</strong> focused
-                                on building clean, user-friendly, and responsive web applications.
-                                I love solving real-world problems using modern technologies and
-                                constantly improving my skills.
-                                My journey in development started with curiosity, and it has grown
-                                into a strong interest in frontend technologies like React,
-                                JavaScript, HTML, and CSS. I enjoy turning ideas into elegant user
-                                interfaces.
-                                When I’m not coding, I explore new tools, learn best practices, and
-                                work on personal projects to sharpen my skills.
+                                Hello, my name is <div className="myname">Pugazhendhi</div> I'm <strong>software engineer</strong> focused
+                                specialized in building clean and efficient web applications.
+                                I work with Python, Django, React, REST APIs, SQL, AWS, and
+                                enjoy creating solutions that are fast, reliable, and user-friendly.
+                                I’ve developed end-to-end features like dashboards, authentication
+                                systems, job automation modules, and AI-powered data processing.
+                                I’m always learning, improving, and building things that matter.
+                                Want to know how I may help your project? Check out my <Link to="/projects" className = "link">{" "}project case studies</Link> and <Link to="/resume" className = "link">{" "}resume</Link>.
                             </p>
-                            <button className="button-hire">Hire Me</button>
+                            <button className="button-hire"> <Link to="/contact" className = "button-link"> Hire Me</Link></button>
                         </div>
                     </div>
                 </section>
             </div>
         </div>
-        
+
     );
 }
 

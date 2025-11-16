@@ -1,5 +1,5 @@
 .about-color{
-    background-color: #41A4F5;;
+    background-color: #41A4F5;
 }
 
 .about-section {
@@ -51,10 +51,10 @@
 
 .button-hire{
     height: 40px;
-    width: 100px;
+    width: 150px;
     background-color: #00000033;
-    font-weight: bold;
-    font-size: 14px;
+    /* font-weight: bold; */
+    font-size: 16px;
     color: white;
     border-radius: 10px;
     border: none;
@@ -65,4 +65,31 @@
 .button-hire:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+
+
+.link {
+  color: white;          /* same color as normal text */
+  text-decoration: none;   /* remove underline */
+  font-weight: normal;     /* remove bold if any */
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: #007bff;          /* blue color on hover (optional) */
+  text-decoration: underline; /* underline only on hover */
+}
+
+.button-link{
+  color: white;          /* same color as normal text */
+  text-decoration: none;   /* remove underline */
+  font-weight: normal;     /* remove bold if any */
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button-link:hover {
+  color: white;          /* blue color on hover (optional) */
+  text-decoration: underline; /* underline only on hover */
 }
