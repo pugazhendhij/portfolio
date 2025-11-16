@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ae1278a.css",
+    "main.js": "/static/js/main.f41e1a27.js",
+    "static/media/Pugazhendhi CV.pdf": "/static/media/Pugazhendhi CV.747648e03f48e1d548d7.pdf",
+    "static/media/profile.jpg": "/static/media/profile.ae06db8fef340428d9f1.jpg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
+    "static/media/github.svg": "/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
+    "static/media/gmail.svg": "/static/media/gmail.456e473acdfa595d925a91ae744cc16d.svg",
+    "main.5ae1278a.css.map": "/static/css/main.5ae1278a.css.map",
+    "main.f41e1a27.js.map": "/static/js/main.f41e1a27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ae1278a.css",
+    "static/js/main.f41e1a27.js"
+  ]
+}
