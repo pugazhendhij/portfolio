@@ -11,6 +11,7 @@ function Navbar() {
         <li onClick={() => navigate("/projects")}>Project</li>
         <li onClick={() => navigate("/resume")}>Resume</li>
         <li onClick={() => navigate("/contact")}>Contact</li>
+
       </ul>
     </nav>
   );
