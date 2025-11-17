@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.89d5e90f.css",
-    "main.js": "/portfolio/static/js/main.2b44addc.js",
+    "main.css": "/portfolio/static/css/main.e55dc58e.css",
+    "main.js": "/portfolio/static/js/main.0a8f7df0.js",
     "static/media/Pugazhendhi CV.pdf": "/portfolio/static/media/Pugazhendhi CV.747648e03f48e1d548d7.pdf",
     "static/media/profile.jpg": "/portfolio/static/media/profile.ae06db8fef340428d9f1.jpg",
     "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
@@ -9,11 +9,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/gmail.svg": "/portfolio/static/media/gmail.456e473acdfa595d925a91ae744cc16d.svg",
-    "main.89d5e90f.css.map": "/portfolio/static/css/main.89d5e90f.css.map",
-    "main.2b44addc.js.map": "/portfolio/static/js/main.2b44addc.js.map"
+    "main.e55dc58e.css.map": "/portfolio/static/css/main.e55dc58e.css.map",
+    "main.0a8f7df0.js.map": "/portfolio/static/js/main.0a8f7df0.js.map"
   },
   "entrypoints": [
-    "static/css/main.89d5e90f.css",
-    "static/js/main.2b44addc.js"
+    "static/css/main.e55dc58e.css",
+    "static/js/main.0a8f7df0.js"
   ]
 }
