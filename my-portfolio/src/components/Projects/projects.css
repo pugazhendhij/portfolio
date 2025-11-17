@@ -1,8 +1,13 @@
-.header-color{
+
+.project-color{
     color: white;
     background-color: #41A4F5;
-    width: 1334px;
-    height: 100px;
+}
+
+.project-section {
+  padding: 30px 20px;
+  max-width: 3000px;
+  margin: auto;
 }
 
 .project-header{

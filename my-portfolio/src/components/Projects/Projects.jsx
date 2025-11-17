@@ -4,10 +4,12 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div>
-      <div className="header-color">
-        <div className="project-header">Projects</div>
+      <div className="project-color">
+        <section className = "project-section"> 
+          <div className="project-header">Projects</div>
 
-        <h3>In-depth Case Studies to show you what I can offer and how I work</h3>
+          <h3>In-depth Case Studies to show you what I can offer and how I work</h3>
+        </section>
       </div>
       <section className="projects-section">
         <h2 className="projects-title">My <span>Projects</span></h2>
@@ -35,8 +37,8 @@ const Projects = () => {
             <h3>DCQC (Data Classification & Quality Compliance Platform)</h3>
             <p>
               Designed a fully serverless architecture to classify TMF (Trial Master File) documents automatically based on predefined study rules.
-Implemented an ML-driven data classification workflow that organizes documents under the correct TMF categories without manual effort.
-Ensured the entire platform met GxP, HIPAA, and GDPR compliance requirements through secure ML pipelines, RBAC, encryption, and automated quality checks.
+              Implemented an ML-driven data classification workflow that organizes documents under the correct TMF categories without manual effort.
+              Ensured the entire platform met GxP, HIPAA, and GDPR compliance requirements through secure ML pipelines, RBAC, encryption, and automated quality checks.
             </p>
             <div className="tech-stack">
               <span>AWS Serverless</span>

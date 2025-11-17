@@ -11,8 +11,8 @@ const Skills = () => {
                 </h2>
 
                 <p className="skills-desc">
-                    I have over 3 years of experience building modern and scalable web applications using Python, Django, FastAPI, React, AWS, and SQL in API-driven architectures.
-Here’s a quick overview of my technical skills and the tools I use to deliver reliable, high-quality solutions. Want to know more about my experience?<br/><br/>
+                    I have over 3 years of experience building modern and scalable web applications using <b>Python</b>, <b>Django</b>, <b>FastAPI</b>, <b>React</b>, <b>AWS</b>, and <b>SQL</b> in API-driven architectures.
+                    Here’s a quick overview of my technical skills and the tools I use to deliver reliable, high-quality solutions. Want to know more about my experience?<br /><br />
                     <Link to="/resume" className="resume-link">
                         {" "}check out my resume
                     </Link>
@@ -22,7 +22,7 @@ Here’s a quick overview of my technical skills and the tools I use to deliver 
                 <div className="skills-row">
 
                     <div className="skill-card">
-                        <h3>🎨 Frontend Development</h3>
+                        <h2>Frontend</h2>
                         <ul>
                             <li>React.js</li>
                             <li>TypeScript</li>
@@ -31,19 +31,21 @@ Here’s a quick overview of my technical skills and the tools I use to deliver 
                     </div>
 
                     <div className="skill-card">
-                        <h3>⚙️ Backend Development</h3>
+                        <h2>Backend</h2>
                         <ul>
                             <li>Python</li>
                             <li>Django</li>
                             <li>FastAPI</li>
                             <li>REST API Development</li>
+                            <li>Authentication (JWT, OAuth)</li>
+                            <li>SQL ( MySQL, PostgreSQL )</li>
+                            <li>NoSQL ( DynamoDB )</li>
                         </ul>
                     </div>
 
                     <div className="skill-card">
-                        <h3>🛠 Tools, Cloud & Database</h3>
+                        <h2>Tools, Cloud </h2>
                         <ul>
-                            <li>SQL (MySQL, PostgreSQL)</li>
                             <li>AWS</li>
                             <li>Git & GitHub</li>
                             <li>Postman</li>

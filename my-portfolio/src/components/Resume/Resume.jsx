@@ -6,8 +6,10 @@ import resumePDF from "../../assets/Pugazhendhi CV.pdf";
 const Resume = () => {
   return (
     <div>
-      <div className="header-color">
-        <h1>Resume</h1>
+      <div className="resume-color">
+        <section className = "resume-section">
+          <h1>Resume</h1>
+        </section>
       </div>
       <section className="resume-section">
         <div className="resume-container">

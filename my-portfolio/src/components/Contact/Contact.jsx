@@ -29,8 +29,8 @@ const ContactCard = () => {
         <div className="card-container">
             <div className="contact-container" >
                 <p>
-                    I’m currently exploring opportunities as a <span><strong> Software Engineer </strong></span>
-                    . If you’re interested in working together or hiring me for a project, feel free to reach out using the form below.
+                    I’m currently exploring opportunities as a  <span><strong> {" "} Software Engineer. {" "} </strong></span>
+                    {" "}If you’re interested in working together or hiring me for a project, feel free to reach out using the form below.
                     Want to learn more about my work and what I can offer? Check out my <Link to="/projects" className="resume-link">{" "}project case studies</Link> and <Link to="/resume" className="resume-link">{" "}resume.</Link>
                     You can also connect with me on the platforms listed below.</p>
             </div>
@@ -110,16 +110,19 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="header-color">
-                <h1>Contact</h1>
+            <div className="contact-color">
+                <section className="contact-section">
+                    <h1>Contact</h1>
+                </section>
             </div>
 
             <ContactCard />
+            <section>
             <div className="contact-container">
                 <h2>Get in <span>Touch</span></h2>
 
                 <form onSubmit={handleSubmit} className="contact-form">
-                    <div className="form-row">
+                    <div className="row">
                         <input
                             placeholder="Your Name"
                             name="name"
@@ -155,6 +158,7 @@ const Contact = () => {
 
                 </form>
             </div>
+            </section>
 
             <ToastContainer />
         </div>

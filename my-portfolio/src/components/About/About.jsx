@@ -15,16 +15,13 @@ function About() {
                         />
                         <div className="about-text">
                             <p>
-                                Hello, my name is <div className="myname">Pugazhendhi</div> I'm <strong>software engineer</strong> focused
-                                specialized in building clean and efficient web applications.
-                                I work with Python, Django, React, REST APIs, SQL, AWS, and
-                                enjoy creating solutions that are fast, reliable, and user-friendly.
-                                I’ve developed end-to-end features like dashboards, authentication
-                                systems, job automation modules, and AI-powered data processing.
-                                I’m always learning, improving, and building things that matter.
-                                Want to know how I may help your project? Check out my <Link to="/projects" className = "link">{" "}project case studies</Link> and <Link to="/resume" className = "link">{" "}resume</Link>.
+                                Hi, I'm <div className="myname">Pugazhendhi 👋</div> a <strong>software engineer {" "}</strong>
+                                who loves building clean, efficient, and scalable web applications.
+                                I focus on creating fast, reliable, and user-friendly solutions that truly solve problems.
+                                I’ve built features like dashboards, authentication flows, automation modules, and AI-powered systems
+                                Want to know how I may help your project? Check out my <Link to="/projects" className="link">{" "}project case studies</Link> and <Link to="/resume" className="link">{" "}resume</Link>.
                             </p>
-                            <button className="button-hire"> <Link to="/contact" className = "button-link"> Hire Me</Link></button>
+                            <button className="button-hire"> <Link to="/contact" className="button-link"> Hire Me</Link></button>
                         </div>
                     </div>
                 </section>
