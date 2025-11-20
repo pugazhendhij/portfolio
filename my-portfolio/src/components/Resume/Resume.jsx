@@ -1,7 +1,7 @@
 import "./resume.css";
 import { Eye, Download } from "lucide-react";
 
-import resumePDF from "../../assets/Pugazhendhi CV.pdf";
+import resumePDF from "../../assets/Pugazhendhi Software Engineer Resume.pdf";
 
 const Resume = () => {
   return (
@@ -34,7 +34,7 @@ const Resume = () => {
             {/* Download Button */}
             <a
               href={resumePDF}
-              download="Pugazhendhi-CV.pdf"
+              download="Pugazhendhi Software Engineer Resume.pdf"
               className="btn download-btn"
             >
               <Download size={16} style={{ marginRight: "6px" }} />
